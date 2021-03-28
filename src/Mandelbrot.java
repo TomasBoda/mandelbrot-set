@@ -1,6 +1,8 @@
 // Mandelbrot set with zooming and using multi-processing
 // by Tomáš Boďa
 
+package main;
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -16,8 +18,8 @@ import javax.swing.JPanel;
 public class Mandelbrot extends JPanel implements MouseListener {
 	private static final long serialVersionUID = 1L;
 	
-	public static final int WIDTH = 1920;
-	public static final int HEIGHT = 1080;
+	public static final int WIDTH = 1200;
+	public static final int HEIGHT = 700;
 	
 	public static int MAX_ITER = 50;
 	
@@ -135,7 +137,6 @@ public class Mandelbrot extends JPanel implements MouseListener {
 	
 	private void reset() {
 		// reset the the Mandelbrot set to default values
-		
 		SCALE = HEIGHT / 4;
 		xMin = -WIDTH / SCALE / 2;
 		yMin = -2;

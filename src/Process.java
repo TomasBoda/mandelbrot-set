@@ -1,3 +1,5 @@
+package main;
+
 import java.awt.image.BufferedImage;
 
 public class Process extends Thread implements Runnable {
