@@ -1,10 +1,12 @@
-# Mandelbrot set with zooming using multi-processing
+# Mandelbrot set with infinite zooming using multi-processing
+by Tomáš Boďa
 
 ## Functionality
 - control panel with adjustable variables
-- increase / decrease MAX_ITER count
-- switch between single and multi processing
+- increase or decrease MAX_ITER count
+- switch between single-processing and multi-processing
 - infinite zoom on mouse click
+- displayed time needed to calculate the Mandelbrot set
 
 ## Screenshots
 
